@@ -30,7 +30,7 @@ public class UserInfoEntity {
     }
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name",unique = true)
     public String getName() {
         return name;
     }
